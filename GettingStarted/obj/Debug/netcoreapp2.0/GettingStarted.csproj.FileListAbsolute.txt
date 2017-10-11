@@ -1,0 +1,12 @@
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\bin\Debug\netcoreapp2.0\GettingStarted.deps.json
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\bin\Debug\netcoreapp2.0\GettingStarted.runtimeconfig.json
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\bin\Debug\netcoreapp2.0\GettingStarted.runtimeconfig.dev.json
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\bin\Debug\netcoreapp2.0\GettingStarted.dll
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\bin\Debug\netcoreapp2.0\GettingStarted.pdb
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\obj\Debug\netcoreapp2.0\GettingStarted.csprojResolveAssemblyReference.cache
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\obj\Debug\netcoreapp2.0\GettingStarted.csproj.CoreCompileInputs.cache
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\obj\Debug\netcoreapp2.0\GettingStarted.AssemblyInfoInputs.cache
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\obj\Debug\netcoreapp2.0\GettingStarted.AssemblyInfo.cs
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\obj\Debug\netcoreapp2.0\GettingStarted.dll
+c:\users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\obj\Debug\netcoreapp2.0\GettingStarted.pdb
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\GettingStarted\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
