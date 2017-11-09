@@ -12981,11 +12981,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\rishabhv\\documents\\visual studio 2017\\Projects\\Packt.DotNetCore2ByExamples.Examples\\GettingStarted\\GettingStarted.csproj",
+      "projectUniqueName": "C:\\Users\\rishabhv\\Documents\\Visual Studio 2017\\Projects\\Packt.DotNetCore2ByExamples.Examples\\.NET-Core-2.0-By-Example\\GettingStarted\\GettingStarted.csproj",
       "projectName": "GettingStarted",
-      "projectPath": "C:\\Users\\rishabhv\\documents\\visual studio 2017\\Projects\\Packt.DotNetCore2ByExamples.Examples\\GettingStarted\\GettingStarted.csproj",
+      "projectPath": "C:\\Users\\rishabhv\\Documents\\Visual Studio 2017\\Projects\\Packt.DotNetCore2ByExamples.Examples\\.NET-Core-2.0-By-Example\\GettingStarted\\GettingStarted.csproj",
       "packagesPath": "C:\\Users\\rishabhv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rishabhv\\documents\\visual studio 2017\\Projects\\Packt.DotNetCore2ByExamples.Examples\\GettingStarted\\obj\\",
+      "outputPath": "C:\\Users\\rishabhv\\Documents\\Visual Studio 2017\\Projects\\Packt.DotNetCore2ByExamples.Examples\\.NET-Core-2.0-By-Example\\GettingStarted\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
