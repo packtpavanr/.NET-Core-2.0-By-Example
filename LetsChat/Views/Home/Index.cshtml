@@ -112,7 +112,8 @@
         spanElement.className = "chat-img1 pull-left";
 
         var imageElement = document.createElement('img');
-        imageElement.alt = "User Avatar";
+        imageElement.alt = userName;
+        imageElement.title = userName;
         imageElement.className = "img-circle";
         imageElement.src = image;
 
@@ -120,6 +121,7 @@
 
         var divBody = document.createElement('div');
         divBody.className = "chat-body1 clearfix";
+        divBody.title = userName;
 
         var para = document.createElement('p');
         para.innerText = message;
