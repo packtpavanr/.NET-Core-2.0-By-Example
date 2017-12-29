@@ -1,8 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Let's Chat";
+    ViewData["UserName"] = "Guest";
+    if(User.Identity.IsAuthenticated)
+    {
+        ViewData["UserName"] = User.Identity.Name;
+    }
 }
 <h1>
-    Welcome to chat room - "Let's Chat"
+  Hello @ViewData["UserName"]! Welcome to chat room - "Let's Chat"
 </h1>
 <br />
 
@@ -40,14 +45,14 @@
                     <div class="chat_area">
                         <ul class="list-unstyled" id="chatArea">
                             @*<li class="left clearfix">
-                                <span class="chat-img1 pull-left">
-                                    <img src="<<Image Url>>" alt="User Avatar" class="img-circle">
-                                </span>
-                                <div class="chat-body1 clearfix">
-                                    <p> Image Here</p>
-                                    <div class="chat_time pull-right"><<Date Time here>></div>
-                                </div>
-                            </li>*@
+                                    <span class="chat-img1 pull-left">
+                                        <img src="<<Image Url>>" alt="User Avatar" class="img-circle">
+                                    </span>
+                                    <div class="chat-body1 clearfix">
+                                        <p> Image Here</p>
+                                        <div class="chat_time pull-right"><<Date Time here>></div>
+                                    </div>
+                                </li>*@
                         </ul>
                     </div>
                     <div class="message_write">
@@ -145,7 +150,7 @@
     });
 
     hubConnection.start();
-    
+
     $("#sendMessage").click(function () {
         sendMessage();
     });
@@ -166,9 +171,9 @@
     });
 
     function appendLine(line, color) {
-       
+
         var listItem = document.createElement('li');
-        listItem.className = "left clearfix";      
+        listItem.className = "left clearfix";
 
         var divBody = document.createElement('div');
         divBody.className = "chat-body1 clearfix";

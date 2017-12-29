@@ -21,8 +21,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:55957/",
-      "sslPort": 44346
+      "applicationUrl": "http://localhost:55958/"
     }
   }
 }

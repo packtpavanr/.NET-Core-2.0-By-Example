@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Rewrite;
 using Microsoft.AspNetCore.Authentication.Facebook;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 
 namespace LetsChat
 {
@@ -29,9 +30,10 @@ namespace LetsChat
             ////services.AddMvc();
             services.AddMvc(options =>
             {
-                options.Filters.Add(new RequireHttpsAttribute());
+                ////options.Filters.Add(new RequireHttpsAttribute());
             });
 
+            
             //// Configure Authentication, we will challenge the user, via Facebook and sign in via Cookie authentication, so setting the appropriate values.
             services.AddAuthentication(options =>
             {
@@ -42,12 +44,12 @@ namespace LetsChat
                .AddFacebook(options =>
                {
                    options.AppId = this.Configuration[Constants.FacebookAuthenticationAppId];     //// AppId & secret of registered facebook app.
-                   options.AppSecret = this.Configuration[Constants.FacebookAuthenticationAppSecret]; 
+                   options.AppSecret = this.Configuration[Constants.FacebookAuthenticationAppSecret];
                })
                .AddCookie();
 
             //// Register IUserTracker used by ChatHub.
-            services.AddSingleton(typeof(IUserTracker<>), typeof(UserTracker<>));
+            services.AddSingleton(typeof(IUserTracker), typeof(UserTracker));
 
             services.AddSignalR();
         }
@@ -66,8 +68,8 @@ namespace LetsChat
             }
 
             //// Redirect the request to HTTPS, if its Http.
-            app.UseRewriter(new RewriteOptions().AddRedirectToHttps(301, 44346));
-            
+            ////app.UseRewriter(new RewriteOptions().AddRedirectToHttps()); ////301, 44346
+
             app.UseStaticFiles();
 
             app.UseAuthentication();
@@ -78,6 +80,7 @@ namespace LetsChat
                 routes.MapHub<ChatHub>("chatHub");
             });
 
+            
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

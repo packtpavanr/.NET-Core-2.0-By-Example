@@ -7,8 +7,16 @@ using System.Threading.Tasks;
 
 namespace LetsChat
 {
+    /// <summary>
+    /// The Helper class.
+    /// </summary>
     public static class Helper
     {
+        /// <summary>
+        /// Gets the user information from the Hub caller context.
+        /// </summary>
+        /// <param name="context">The Hub Caller Context.</param>
+        /// <returns>The user Information.</returns>
         public static UserInformation GetUserInformationFromContext(HubCallerContext context)
         {
             Claim nameIdentifierClaim = context.User.Claims.FirstOrDefault(j => j.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier");
