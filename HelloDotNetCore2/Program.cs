@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace MovieBooking
+namespace HelloDotNetCore2
 {
     public class Program
     {
@@ -19,7 +19,6 @@ namespace MovieBooking
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseApplicationInsights()
                 .UseStartup<Startup>()
                 .Build();
     }
