@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{A1A01377-C3DF-4586-9838-10C733BECF91}"
 EndProject
@@ -17,7 +17,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaqBot", "FaqBot\FaqBot.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieBooking", "MovieBooking\MovieBooking.csproj", "{3B3D9C30-DACF-4B21-973A-61AF4256D60E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedWithEFCore", "GettingStartedWithEFCore\GettingStartedWithEFCore.csproj", "{2CA13285-79DF-4A42-AF92-5D13DDB119EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStartedWithEFCore", "GettingStartedWithEFCore\GettingStartedWithEFCore.csproj", "{2CA13285-79DF-4A42-AF92-5D13DDB119EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloDotNetCore2", "HelloDotNetCore2\HelloDotNetCore2.csproj", "{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PInvoke", "DllImport\PInvoke.csproj", "{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ubuntu Code Samples", "Ubuntu Code Samples", "{F6EA9F37-1073-4878-AF32-D3025DB2D624}"
+	ProjectSection(SolutionItems) = preProject
+		Ububtu Code Samples\HelloSOLib.c = Ububtu Code Samples\HelloSOLib.c
+		Ububtu Code Samples\InteropWithNativeSO.cs = Ububtu Code Samples\InteropWithNativeSO.cs
+		Ububtu Code Samples\IntroToNcurses.c = Ububtu Code Samples\IntroToNcurses.c
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +64,14 @@ Global
 		{2CA13285-79DF-4A42-AF92-5D13DDB119EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA13285-79DF-4A42-AF92-5D13DDB119EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA13285-79DF-4A42-AF92-5D13DDB119EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
