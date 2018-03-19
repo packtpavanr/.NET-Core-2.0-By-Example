@@ -25,9 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PInvoke", "DllImport\PInvok
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ubuntu Code Samples", "Ubuntu Code Samples", "{F6EA9F37-1073-4878-AF32-D3025DB2D624}"
 	ProjectSection(SolutionItems) = preProject
-		Ububtu Code Samples\HelloSOLib.c = Ububtu Code Samples\HelloSOLib.c
-		Ububtu Code Samples\InteropWithNativeSO.cs = Ububtu Code Samples\InteropWithNativeSO.cs
-		Ububtu Code Samples\IntroToNcurses.c = Ububtu Code Samples\IntroToNcurses.c
+		Ubuntu Code Samples\HelloSOLib.c = Ubuntu Code Samples\HelloSOLib.c
+		Ubuntu Code Samples\InteropWithNativeSO.cs = Ubuntu Code Samples\InteropWithNativeSO.cs
+		Ubuntu Code Samples\IntroToNcurses.c = Ubuntu Code Samples\IntroToNcurses.c
 	EndProjectSection
 EndProject
 Global
