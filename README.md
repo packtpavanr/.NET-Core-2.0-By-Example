@@ -31,10 +31,7 @@ Code sample to accompany the book *.NET Core 2.0 By Example*, published by Packt
 [Getting Started With EF Core](https://github.com/packtpavanr/.NET-Core-2.0-By-Example/tree/master/GettingStartedWithEFCore)
 
 [Movie Booking app](https://github.com/packtpavanr/.NET-Core-2.0-By-Example/tree/master/MovieBooking)
-                
-## Chapter 9 & 10
-Code listing samples in the book itself.
-
+           
 # Usage Instructions
 ### 1. Clone or download the repository by clicking the Clone or download button.
 ### 2. For C# and .NET Core Samples:
