@@ -71,7 +71,7 @@ It displays the message when a user joins or leaves the room and also shows Onli
 ### Demo
 [Movie Booking App](http://packtmoviebookingapp.azurewebsites.net/)
 
-Just browse through the links. The data is coming from the DataStore class and getting it from SQL database (as hosting and deploying on Azure is a cost) is left as an exercise to the reader.
+Just browse the link. The data is fetched from the DataStore class and getting it from SQL database (as hosting and deploying on Azure is a cost) is left as an exercise to the reader. Please refer to Getting Started With EF Core sample to accomplish the same.
 
 ## Chapter 9
 [Blazor Source Code](https://github.com/aspnet/Blazor)
@@ -100,5 +100,5 @@ For a thorough undertsanding and extended reading, following resources are recom
 7. [SignalR Core Source Code](https://github.com/aspnet/SignalR)
 8. [ASP.NET Home Repository](https://github.com/aspnet) - Keep exploring, keep learning.
 
-Though the demo apps should work in all modern browser, we only checked them against Chrome, so in case you are finding issues in other browsers, please try using Chrome browser to checkout the demos.
-For any issues, questions or suggestions, please contact [Rishabh Verma](mailto:rishabhv@live.com) or [Neha Shrivastava](mailto:shrivastavaneha18@gmail.com)
+Though the demo apps should work in all modern browsers, we only checked them against Chrome, so in case you face any issues in other browsers, please try using Chrome browser for demos.
+For any issues, questions, suggestions or constructive feedback, please contact [Rishabh Verma](mailto:rishabhv@live.com) or [Neha Shrivastava](mailto:shrivastavaneha18@gmail.com)
