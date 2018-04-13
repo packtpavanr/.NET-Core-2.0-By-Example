@@ -79,6 +79,10 @@ It displays the message when a user joins or leaves the room and also shows Onli
 
 Just browse the link. The data is fetched from the DataStore class and getting it from SQL database (as hosting and deploying on Azure is a cost) is left as an exercise to the reader. Please refer to Getting Started With EF Core sample to accomplish the same.
 
+[Chat BOT](http://packtmoviebookingapp.azurewebsites.net/Chat.html)  
+
+Chat with ASP.NET Core FAQ BOT and do simple converstaion like Hi, Why ASP.NET Core, MVC, about book, etc. Have Fun !
+
 ## Chapter 9
 [Blazor Source Code](https://github.com/aspnet/Blazor)
 
