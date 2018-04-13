@@ -57,10 +57,16 @@ Code sample to accompany the book *.NET Core 2.0 By Example*, published by Packt
 2. Upon login, user would be redirected to Chat Room page. You would be able to chat with all the logged in people in the Let's Chat app.
 It displays the message when a user joins or leaves the room and also shows Online Users on the left panel. Happy chatting!
 
+## Chapter 7
+
+[Reference to Cloud Storage Resources with .NET Core 2.0](https://docs.microsoft.com/en-us/aspnet/core/data/azure-storage/?view=aspnetcore-2.0)
+
 ## Chapter 8
 [Getting Started With EF Core](https://github.com/packtpavanr/.NET-Core-2.0-By-Example/tree/master/GettingStartedWithEFCore)
 
 [Movie Booking app](https://github.com/packtpavanr/.NET-Core-2.0-By-Example/tree/master/MovieBooking)
+
+[Extended Chapter 8](https://github.com/packtpavanr/.NET-Core-2.0-By-Example/blob/master/MovieBooking/Readme.md)
 
 ### Key takeways:
 1. Getting started with Entity Framework Core.
